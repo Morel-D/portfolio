@@ -5,8 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #1A1A1D; */
+  background-color: #1A1A1D;
 }
+
+#navbar {
+   background-color: #3d3d3d;
+}
+
+#navtext {
+  font-size: 20px;
+}
+
+#introText {
+  color: #C3073F;
+}
+
+/* #partten 
+{
+  
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -1,7 +1,10 @@
+import Introduction from "../Pages/Introduction";
+
+
 const Content = () => {
     return ( 
-        <div>
-            This is the content
+        <div className="content">
+            <Introduction />
         </div>
      );
 }

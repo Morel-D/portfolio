@@ -8,6 +8,10 @@ body {
   background-color: #1A1A1D;
 }
 
+.Service {
+  background-color: #363636;
+}
+
 #navbar {
    background-color: #3d3d3d;
 }
@@ -16,16 +20,33 @@ body {
   font-size: 20px;
 }
 
-#introText {
+
+#introText, #introText1 {
   color: #C3073F;
 }
 
-/* #partten 
-{
-  
-} */
+#introText, #intro {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 50px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#partten 
+{
+  width: auto;
+  height: 100%;
+  background: url('Components/Images/Partten.png') no-repeat;
+  background-size: contain;
+}
+
+#user {
+  background-size: contain;
+  width: auto;
+  height: 100%;
+}
+

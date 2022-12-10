@@ -8,7 +8,7 @@ body {
   background-color: #1A1A1D;
 }
 
-.Service {
+.bio {
   background-color: #363636;
 }
 
@@ -28,6 +28,13 @@ body {
 #introText, #intro {
   font-family: 'League Spartan', sans-serif;
   font-size: 50px;
+}
+
+.bioTitle
+{
+  font-family: 'League Spartan', sans-serif;
+  color: #C3073F;
+  font-size: 70px;
 }
 
 code {

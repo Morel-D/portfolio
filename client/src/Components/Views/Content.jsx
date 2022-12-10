@@ -1,4 +1,6 @@
+import Biography from "../Pages/Biography";
 import Introduction from "../Pages/Introduction";
+import Services from "../Pages/Services";
 
 
 const Content = () => {
@@ -7,8 +9,11 @@ const Content = () => {
             <div className="Introduction">
                <Introduction />
             </div>
-            <div className="Service">
-                me
+            <div className="Biography">
+                <Biography />
+            </div>
+            <div className="Services">
+                <Services />
             </div>
         </div>
      );

@@ -8,6 +8,11 @@ body {
   background-color: #1A1A1D;
 }
 
+.cardService {
+  background-color: #1A1A1D;
+  border: solid 1px  #363636;
+}
+
 .bio {
   background-color: #363636;
 }
@@ -21,11 +26,11 @@ body {
 }
 
 
-#introText, #introText1 {
+#introText, #introText1, .cardServiceTitle, .titleServices {
   color: #C3073F;
 }
 
-#introText, #intro {
+#introText, #intro, .titleServices {
   font-family: 'League Spartan', sans-serif;
   font-size: 50px;
 }

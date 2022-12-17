@@ -13,8 +13,8 @@ body {
   border: solid 1px  #363636;
 }
 
-.bio {
-  background-color: #363636;
+.bio, .skill {
+  background-color: #3636363e;
 }
 
 #navbar {

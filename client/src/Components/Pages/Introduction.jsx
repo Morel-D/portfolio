@@ -9,7 +9,8 @@ const Introduction = () => {
                         <h2 className="mt-5" id="introText1">~ Hi !</h2>
                         <h2 className="" id="intro">I'm TCHAPTCHE MOREL</h2>
                         <h2 className="" id="introText">Developer x Designer</h2>
-                        <label className="lead" id="intro3">Welcome to my corner of the internet. i'm glad you're here</label>
+                        <label className="lead mb-3" id="intro3">Welcome to my corner of the internet. i'm glad you're here</label> <br />
+                        <button className="btn btn-danger p-3" id="cv">Download my CV</button>
                     </div>
 
                     <div className="col col-5 text-white">

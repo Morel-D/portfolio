@@ -30,6 +30,10 @@ body {
   color: #C3073F;
 }
 
+#cv {
+  background-color: #C3073F;
+}
+
 #introText, #intro, .titleServices {
   font-family: 'League Spartan', sans-serif;
   font-size: 50px;
@@ -60,5 +64,31 @@ code {
   background-size: contain;
   width: auto;
   height: 100%;
+}
+
+
+.timeline {
+  border-left: 1px solid #C3073F;
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: #C3073F;
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
 }
 

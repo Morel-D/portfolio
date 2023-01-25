@@ -9,7 +9,7 @@ const Navigation = () => {
             <div className="collapse navbar-collapse ">
                 <ul className="navbar-nav mx-5 gap-3  mb-2 mb-lg-0">
                   <li className="nav-item"><a class="nav-link text-secondary" href="#" id="navtext">Service</a></li>
-                  <li className="nav-item"><a class="nav-link text-secondary" href="#" id="navtext">About Me</a></li>
+                  <li className="nav-item"><label class="nav-link text-secondary" htmlFor="Biography" id="navtext">About Me</label></li>
                   <li className="nav-item"><a class="nav-link text-secondary" href="#" id="navtext">Skills</a></li>
                   <li className="nav-item"><a class="nav-link text-secondary" href="#" id="navtext">Projects</a></li>
                 </ul>

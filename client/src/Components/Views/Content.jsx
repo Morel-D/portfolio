@@ -1,4 +1,5 @@
 import Biography from "../Pages/Biography";
+import Contacts from "../Pages/Contact";
 import Expererience from "../Pages/Experience";
 import Introduction from "../Pages/Introduction";
 import Services from "../Pages/Services";
@@ -26,6 +27,12 @@ const Content = () => {
             </div>
             <div className="experience">
                 <Expererience />
+            </div>
+            <div className="Projects">
+                {/* To be added  */}
+            </div>
+            <div className="experience bg-dark text-white">
+                <Contacts />
             </div>
         </div>
      );

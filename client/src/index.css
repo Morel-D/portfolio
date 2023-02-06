@@ -13,7 +13,7 @@ body {
   border: solid 1px  #363636;
 }
 
-.bio, .skill {
+.bio, .skill, .projects{
   background-color: #3636363e;
 }
 
@@ -92,3 +92,40 @@ code {
   content: "";
 }
 
+
+
+
+#pills-home-tab.active   {
+  color: #C3073F;
+  background-color: transparent;
+}
+
+#pills-profile-tab.active   {
+  color: #C3073F;
+  background-color: transparent;
+}
+
+#pills-contact-tab.active   {
+  color: #C3073F;
+  background-color: transparent;
+}
+
+
+
+#pills-home-tab, #pills-profile-tab, #pills-contact-tab {
+  color: #5d5d5d;
+}
+
+
+
+
+#project-card {
+
+  background-color: #4b4b4b;
+
+}
+
+
+#design-title {
+  color: #C3073F;
+}

@@ -129,3 +129,17 @@ code {
 #design-title {
   color: #C3073F;
 }
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+
+#service-img
+{
+  height: auto;
+  width: 60%;
+}

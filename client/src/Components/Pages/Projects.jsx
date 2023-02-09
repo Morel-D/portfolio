@@ -7,79 +7,154 @@ import limited1 from "../Images/designs/Limited 1.png";
 import ice from "../Images/designs/Ice.png";
 import shoes from "../Images/designs/shoes.png";
 
+// Videos
+
+import chats from "../assets/Videos/ChatRoom System.mp4";
+import commerce from "../assets/Videos/E_Commerce.mp4";
+import gallery from "../assets/Videos/Gallery_Image.mp4";
+import information from "../assets/Videos/Information.mp4";
+import blog from "../assets/Videos/Micro Blogging WebApp.mp4";
+import mini from "../assets/Videos/miniProjects.mp4";
+import srcms from "../assets/Videos/SRCMS.mp4";
+
+
 const Projects = () => {
 
     // Desings
 
-    const projects =
-        [
-            {
-                target: "target",
-                title: "Fitness UI Design",
-                desciption: " Track your daily activity levels with ease and stay motivated with personalized workout planstailored to your individual needs and preferences",
-                stack: "Figma",
-                image: fitness
-            },
+  const projects =
+    [
+      {
+        target: "target",
+        title: "Fitness UI Design",
+        desciption: " Track your daily activity levels with ease and stay motivated with personalized workout planstailored to your individual needs and preferences",
+        stack: "Figma",
+        image: fitness
+      },
 
-            {
-                target: "gaming",
-                title: "Gaming UI Design",
-                desciption: "A digital environments where players can access and play video games.",
-                stack: "Figma",
-                image: gaming
-            },
-
-
-            {
-                target: "vision",
-                title: "Furnitures UI Design",
-                desciption: "Furniture is an essential part of every home and office, providing comfort, style and functionality.",
-                stack: "Adobe XD",
-                image: vision
-            },
-
-            {
-                target: "haircut",
-                title: "Hair-Cut Shop UI Design",
-                desciption: "We offer a variety of haircuts and styling services for men, women, and children.",
-                stack: "Figma",
-                image: haircut
-            },
-
-            {
-                target: "fashion",
-                title: "Fashion UI Design",
-                desciption: "Unleash Your Style with Every Click.",
-                stack: "Figma",
-                image: fashion
-            },
+      {
+        target: "gaming",
+        title: "Gaming UI Design",
+        desciption: "A digital environments where players can access and play video games.",
+        stack: "Figma",
+        image: gaming
+      },
 
 
-            {
-                target: "limited",
-                title: "T-Shirt UI Design",
-                desciption: "Comfortable, stylish, and unique.",
-                stack: "Figma",
-                image: limited1
-            },
+      {
+        target: "vision",
+        title: "Furnitures UI Design",
+        desciption: "Furniture is an essential part of every home and office, providing comfort, style and functionality.",
+        stack: "Adobe XD",
+        image: vision
+      },
 
-            {
-                target: "ice",
-                title: "Ice Scream UI Design",
-                desciption: "Scoops of happiness in every bite !",
-                stack: "Figma",
-                image: ice
-            },
+      {
+        target: "haircut",
+        title: "Hair-Cut Shop UI Design",
+        desciption: "We offer a variety of haircuts and styling services for men, women, and children.",
+        stack: "Figma",
+        image: haircut
+      },
+
+      {
+        target: "fashion",
+        title: "Fashion UI Design",
+        desciption: "Unleash Your Style with Every Click.",
+        stack: "Figma",
+        image: fashion
+      },
+
+
+      {
+        target: "limited",
+        title: "T-Shirt UI Design",
+        desciption: "Comfortable, stylish, and unique.",
+        stack: "Figma",
+        image: limited1
+      },
+
+      {
+        target: "ice",
+        title: "Ice Scream UI Design",
+        desciption: "Scoops of happiness in every bite !",
+        stack: "Figma",
+        image: ice
+      },
             
-            {
-                target: "shoes",
-                title: "Shoes UI Design",
-                desciption: "Step into comfort, step into style with us.",
-                stack: "Adobe XD",
-                image: shoes
-            },
+      {
+        target: "shoes",
+        title: "Shoes UI Design",
+        desciption: "Step into comfort, step into style with us.",
+        stack: "Adobe XD",
+        image: shoes
+      },
 
-        ]
+    ];
+  
+  //web Projects
+
+  const webProjects = 
+    [
+      {
+        target: "chat",
+        title: "ChatRoom System",
+        desciption: "",
+        stacks: ['MONGODB', 'EXPRESS.JS', 'REACT.JS', 'NODE.JS'],
+        video: chats
+      },
+      
+      {
+        target: "commerce",
+        title: "E Commerce WebApp",
+        desciption: "",
+        stacks: ['REACT.JS'],
+        video: commerce
+      },
+
+      {
+        target: "gallery",
+        title: "Image Gallery",
+        desciption: "",
+        stacks: ['HTML', 'CSS', 'PHP', 'MYSQL'],
+        video: gallery
+      },
+
+      {
+        target: "info",
+        title: "Information Recording System",
+        desciption: "",
+        stacks: ['HTML', 'CSS', 'NODE.JS', 'MONGODB'],
+        video: information
+      },
+
+
+      {
+        target: "micro",
+        title: "Micro Blogging System",
+        desciption: "",
+        stacks: ['REACT.JS', 'NODE.JS', 'EXPRESS.JS', 'MONGODB'],
+        video: blog
+      },
+
+      {
+        target: "mini",
+        title: "Mini Projects",
+        desciption: "",
+        stacks: ['HTML', 'CSS', 'JAVASCRIPT'],
+        video: mini
+      },
+
+      {
+        target: "school",
+        title: "School Recording Managment Sysetm",
+        desciption: "",
+        stacks: ['HTML', 'CSS', 'JAVASCRIPT', 'PHP', 'MYSQL'],
+        video: srcms
+      },
+
+  ]
+
 
     return ( 
         <div className="projects">
@@ -102,8 +177,36 @@ const Projects = () => {
                  </li>
                </ul>
                    
-               <div className="tab-content text-white" id="pills-tabContent">
-                    <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">One</div>
+          <div className="tab-content text-white" id="pills-tabContent">
+            
+            <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              {webProjects && webProjects.map((project) => (
+                  
+                  <div className="card my-5" id="project-card" type="button" data-bs-toggle="modal" data-bs-target={`#${project.target}`}>
+                  <div className="row no-gutters">
+                      <div className="col-md-4">
+                         <video src={project.video} className="object-fit-contain" autoplay></video>
+                      </div>
+                      <div className="col-md-8 px-5">
+                      <h3 className="mt-4 text-white">{project.title}</h3>
+                          <p className="mt-2 py-3 lead">
+                            {project.desciption}
+                      </p>
+                      <div className="row">
+                        <div className="col col-2 mt-3"><h5>Use Stack :</h5></div>
+                      {project.stacks.map((stack) => (
+                        <div className="col col-2"><div class="shadow p-3 text-center bg-body-tertiary rounded">{stack}</div></div>
+                      ))}
+                     </div>
+
+                      </div>
+                  </div>
+                </div>
+                
+                ))}
+              
+            </div>
+            
                     
 
 
@@ -167,7 +270,38 @@ const Projects = () => {
                     </div>
               </div>
                 )))}
-              {/* <!-- Modal --> */}   
+        {/* <!-- Modal --> */}   
+        
+
+
+                    {/* <!-- Modal 2 --> */}
+                    {webProjects && webProjects.map((project => (
+                    <div className="modal fade" id={project.target} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-xl">
+                      <div className="modal-content text-white" id="modal-projects">
+                        <div className="modal-header">
+                                <h1 className="modal-title fs-5" id="exampleModalLabel">{project.title}</h1>
+                          <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                          <div className="modal-body p-5">
+                              <video className="object-fit-contain" controls>
+                                <source src={project.video} type="video/mp4" />
+                                </video>
+                              <p className="mt-2 lead p-2">
+                                  {project.desciption}
+                              </p>
+                              <div className="row">
+                                 <div className="col col-2 mt-3"><h5>Use Stack :</h5></div>
+                               {project.stacks.map((stack) => (
+                                 <div className="col col-2"><div class="shadow p-3 text-center bg-body-tertiary rounded">{stack}</div></div>
+                               ))}
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+                )))}
+              {/* <!-- Modal --> */} 
 
         </div>
      );

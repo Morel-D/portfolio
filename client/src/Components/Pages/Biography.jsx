@@ -3,12 +3,19 @@ const Biography = () => {
     return ( 
         <div className="bio p-5 text-white">
             <div className="row">
-                <div className="col">
-                    <div className="text-center mt-5">
-                        1
+                {/* <div className="col">
+                    <div className="text-center mt-5 d-grid gap-5">
+                        <div className="row">
+                            <div className="col">1</div>
+                            <div className="col">2</div>
+                        </div>
+                        <div className="row">
+                            <div className="col">3</div>
+                            <div className="col">4</div>
+                        </div>
                     </div>
-                </div>
-                <div className="col col-7">
+                </div> */}
+                <div className="col">
                     <h3 className="bioTitle">Biography</h3>
                       <p className="bioText py-2">
                         With the age of 21 years, I'm Full stack developper and designer from

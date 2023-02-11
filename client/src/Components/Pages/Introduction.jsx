@@ -5,7 +5,7 @@ const Introduction = () => {
         <div className="introduction">
             <div className="text-center">
                 <div className="row my-5 px-5">
-                    <div className="col  text-white text-start my-5 mx-5">
+                    <div className="col col-xl-6 col-sm-12 text-white text-start my-5 mx-5">
                         <h2 className="mt-5" id="introText1">~ Hi !</h2>
                         <h2 className="" id="intro">I'm TCHAPTCHE MOREL</h2>
                         <h2 className="" id="introText">Developer x Designer</h2>
@@ -13,7 +13,7 @@ const Introduction = () => {
                         <button className="btn btn-danger p-3" id="cv">Download my CV</button>
                     </div>
 
-                    <div className="col col-5 text-white">
+                    <div className="col col-xl-5  col-sm-0 text-white">
                         <div className="pattern my-5" id="partten">
                             <img src={user} id ="user"/>
                         </div>

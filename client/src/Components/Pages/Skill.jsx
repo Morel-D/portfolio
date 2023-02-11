@@ -83,14 +83,14 @@ const Skill = () => {
                             
                             <div className="carousel-item active">
                                 <div className="row text-white">
-                                    <div className="col">
+                                    <div className="col col-xl-6 col-sm-12">
                                         <h5>Frontend Development</h5>
                                         <div className="text-center">
                                            <img src={img_frontend} alt="" className="img-fluid" id="skill-img"/>
                                         </div>
                                     </div>
 
-                                    <div className="col">
+                                    <div className="col col-6">
                                         {frontend && frontend.map((front) => (
                                             <div className="percentage py-2">
                                             <div className="text">
@@ -108,16 +108,16 @@ const Skill = () => {
                             
                            <div className="carousel-item">
                                 <div className="row text-white">
-                                    <div className="col">
+                                    <div className="col col-xl-6 col-sm-12">
                                         <h5>Backend Development</h5>
                                         <div className="text-center">
                                            <img src={img_backend} alt="" className="img-fluid" id="skill-img"/>
                                         </div>
                                     </div>
 
-                                    <div className="col">
+                                    <div className="col col-6">
                                         {backend && backend.map((back) => (
-                                            <div className="percentage py-4">
+                                            <div className="percentage py-2">
                                             <div className="text">
                                                <label className="text-secondary">{back.language} ({back.percentage})</label>       
                                             </div>
@@ -135,16 +135,16 @@ const Skill = () => {
 
                            <div className="carousel-item">
                             <div className="row text-white">
-                                    <div className="col">
+                                    <div className="col col-xl-6 col-sm-12">
                                         <h5>Database</h5>
                                         <div className="text-center">
                                            <img src={img_database} alt="" className="img-fluid" id="skill-img"/>
                                         </div>                                        
                                     </div>
 
-                                    <div className="col">
+                                    <div className="col col-6">
                                         {database && database.map((data) => (
-                                            <div className="percentage py-4">
+                                            <div className="percentage py-2">
                                             <div className="text">
                                                <label className="text-secondary">{data.language} ({data.percentage})</label>       
                                             </div>
@@ -161,16 +161,16 @@ const Skill = () => {
 
                             <div className="carousel-item">
                             <div className="row text-white">
-                                    <div className="col">
+                                    <div className="col col-xl-6 col-sm-12">
                                         <h5>Android Development</h5>
                                         <div className="text-center">
                                            <img src={img_android} alt="" className="img-fluid" id="skill-img"/>
                                         </div>                                        
                                     </div>
 
-                                    <div className="col">
+                                    <div className="col col-6">
                                         {androidDev && androidDev.map((android) => (
-                                            <div className="percentage py-5">
+                                            <div className="percentage py-xl-4 py-sm-3">
                                             <div className="text">
                                                <label className="text-secondary">{android.language} ({android.percentage})</label>       
                                             </div>
@@ -187,16 +187,16 @@ const Skill = () => {
 
                             <div className="carousel-item">
                             <div className="row text-white">
-                                    <div className="col">
+                                    <div className="col col-xl-6 col-sm-12">
                                         <h5>UI Design</h5>
                                         <div className="text-center">
                                            <img src={img_ui} alt="" className="img-fluid" id="skill-img"/>
                                         </div>                                        
                                     </div>
 
-                                    <div className="col">
+                                    <div className="col col-6">
                                         {UiDesign && UiDesign.map((design) => (
-                                            <div className="percentage py-5">
+                                            <div className="percentage py-xl-4 py-sm-4">
                                             <div className="text">
                                                <label className="text-secondary">{design.tool} ({design.percentage})</label>       
                                             </div>
@@ -213,14 +213,14 @@ const Skill = () => {
 
                             <div className="carousel-item">
                                 <div className="row text-white">
-                                      <div className="col">
+                                      <div className="col col-xl-6 col-sm-12">
                                         <h5>Graphic Design</h5>
                                         <div className="text-center">
                                            <img src={img_graphics} alt="" className="img-fluid" id="skill-img"/>
                                         </div>                                        
                                       </div>
 
-                                      <div className="col">
+                                      <div className="col col-6">
                                           {GraphicDesign && GraphicDesign.map((graphic) => (
                                               <div className="percentage py-5">
                                               <div className="text">

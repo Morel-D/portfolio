@@ -18,10 +18,9 @@ const Services = () => {
                         <div className="text-center p-4">
                         <img src={web} alt="" className="img-fluid" id="service-img"/>
                         </div>
-                        <h4 className="cardServiceTitle mt-3 px-3">Web Develepment</h4>
+                        <h4 className="cardServiceTitle">Web Develepment</h4>
                         <p className="p-3 text-start">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et asperiores facere aperiam animi,
-                            molestiae maiores sequi minima labore tempora
+                        Empower your online presence with my web development services. Dynamic, responsive and user-friendly websites built for your success.
                         </p>
                     </div>
                 </div>
@@ -31,10 +30,9 @@ const Services = () => {
                     <div className="text-center p-4">
                         <img src={andriod} alt="" className="img-fluid" id="service-img"/>
                     </div>
-                        <h4 className="cardServiceTitle mt-3 px-3">Android Develepment</h4>
-                        <p className="p-3 text-start">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et asperiores facere aperiam animi,
-                            molestiae maiores sequi minima labore tempora
+                        <h4 className="cardServiceTitle mt-3">Mobile Develepment</h4>
+                        <p className="p-3 text-start mb-5">
+                           Transform your ideas into innovative mobile apps with our expert development team
                         </p>
                     </div>
                 </div>
@@ -45,10 +43,9 @@ const Services = () => {
                     <div className="text-center p-4">
                         <img src={ui} alt="" className="img-fluid" id="service-img"/>
                     </div>
-                        <h4 className="cardServiceTitle mt-3 px-3">UI Design</h4>
-                        <p className="p-3 text-start">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et asperiores facere aperiam animi,
-                            molestiae maiores sequi minima labore tempora
+                        <h4 className="cardServiceTitle mt-3">UI Design</h4>
+                        <p className="p-3 text-start mb-5">
+                        Streamline and improve your user interface design with powerful features and intuitive design elements.
                         </p>
                     </div>
             </div>
@@ -58,10 +55,9 @@ const Services = () => {
                     <div className="text-center p-4">
                         <img src={graphic} alt="" className="img-fluid" id="service-img"/>
                     </div>
-                        <h4 className="cardServiceTitle mt-3 px-3">Graphic Design</h4>
+                        <h4 className="cardServiceTitle mt-3">Graphic Design</h4>
                         <p className="p-3 text-start">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et asperiores facere aperiam animi,
-                            molestiae maiores sequi minima labore tempora
+                        Unleash creativity with our top-notch graphic design services. Make your brand stand out!
                         </p>
                     </div>
             </div>

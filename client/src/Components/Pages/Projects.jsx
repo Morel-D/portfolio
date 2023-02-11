@@ -208,7 +208,7 @@ const Projects = () => {
                   <div className="card my-5" id="project-card" type="button" data-bs-toggle="modal" data-bs-target={`#${project.target}`}>
                   <div className="row no-gutters">
                       <div className="col-md-4">
-                         <video src={project.video} className="object-fit-contain" autoplay></video>
+                         <video src={project.video} className="object-fit-contain"></video>
                       </div>
                       <div className="col-md-8 px-5">
                       <h3 className="mt-4 text-white">{project.title}</h3>
@@ -216,9 +216,9 @@ const Projects = () => {
                             {project.desciption}
                       </p>
                       <div className="row">
-                        <div className="col col-2 mt-3"><h5>Use Stack :</h5></div>
+                        <div className="col col-xl-2 col-sm-5 mt-3"><h5>Use Stack :</h5></div>
                       {project.stacks.map((stack) => (
-                        <div className="col col-2"><div class="shadow p-3 text-center bg-body-tertiary rounded">{stack}</div></div>
+                        <div className="col col-xl-2 col-sm-5 "><div class="shadow p-3 text-center bg-body-tertiary rounded">{stack}</div></div>
                       ))}
                      </div>
 

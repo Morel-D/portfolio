@@ -1,3 +1,10 @@
+import img_frontend from "../assets/Skills/skill_Front_end.png";
+import img_backend from "../assets/Skills/skill_backend.png";
+import img_database from "../assets/Skills/skill_database.png";
+import img_graphics from "../assets/Skills/skill_graphics.png";
+import img_ui from "../assets/Skills/skill_ui.png";
+import img_android from "../assets/Skills/skill_android.png";
+
 const Skill = () => {
 
     const frontend = [
@@ -77,7 +84,10 @@ const Skill = () => {
                             <div className="carousel-item active">
                                 <div className="row text-white">
                                     <div className="col">
-                                        <h2>Frontend Development</h2>
+                                        <h5>Frontend Development</h5>
+                                        <div className="text-center">
+                                           <img src={img_frontend} alt="" className="img-fluid" id="skill-img"/>
+                                        </div>
                                     </div>
 
                                     <div className="col">
@@ -99,7 +109,10 @@ const Skill = () => {
                            <div className="carousel-item">
                                 <div className="row text-white">
                                     <div className="col">
-                                        <h2>Backend Development</h2>
+                                        <h5>Backend Development</h5>
+                                        <div className="text-center">
+                                           <img src={img_backend} alt="" className="img-fluid" id="skill-img"/>
+                                        </div>
                                     </div>
 
                                     <div className="col">
@@ -123,7 +136,10 @@ const Skill = () => {
                            <div className="carousel-item">
                             <div className="row text-white">
                                     <div className="col">
-                                        <h2>Database</h2>
+                                        <h5>Database</h5>
+                                        <div className="text-center">
+                                           <img src={img_database} alt="" className="img-fluid" id="skill-img"/>
+                                        </div>                                        
                                     </div>
 
                                     <div className="col">
@@ -146,7 +162,10 @@ const Skill = () => {
                             <div className="carousel-item">
                             <div className="row text-white">
                                     <div className="col">
-                                        <h2>Android Development</h2>
+                                        <h5>Android Development</h5>
+                                        <div className="text-center">
+                                           <img src={img_android} alt="" className="img-fluid" id="skill-img"/>
+                                        </div>                                        
                                     </div>
 
                                     <div className="col">
@@ -169,7 +188,10 @@ const Skill = () => {
                             <div className="carousel-item">
                             <div className="row text-white">
                                     <div className="col">
-                                        <h2>UI Design</h2>
+                                        <h5>UI Design</h5>
+                                        <div className="text-center">
+                                           <img src={img_ui} alt="" className="img-fluid" id="skill-img"/>
+                                        </div>                                        
                                     </div>
 
                                     <div className="col">
@@ -192,7 +214,10 @@ const Skill = () => {
                             <div className="carousel-item">
                                 <div className="row text-white">
                                       <div className="col">
-                                          <h2>Graphic Design</h2>
+                                        <h5>Graphic Design</h5>
+                                        <div className="text-center">
+                                           <img src={img_graphics} alt="" className="img-fluid" id="skill-img"/>
+                                        </div>                                        
                                       </div>
 
                                       <div className="col">

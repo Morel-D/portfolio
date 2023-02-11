@@ -136,10 +136,23 @@ video {
   height: auto;
 }
 
+#mobile {
+  width: 20%;
+  height: auto;
+}
 
+#mobile1 {
+  width: 90%;
+  height: auto;
+}
 
 #service-img
 {
   height: auto;
   width: 60%;
+}
+
+#skill-img {
+  height: auto;
+  width: 40%;
 }

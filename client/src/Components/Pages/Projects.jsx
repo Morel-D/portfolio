@@ -8,7 +8,6 @@ import ice from "../Images/designs/Ice.png";
 import shoes from "../Images/designs/shoes.png";
 
 // Videos
-
 import chats from "../assets/Videos/ChatRoom System.mp4";
 import commerce from "../assets/Videos/E_Commerce.mp4";
 import gallery from "../assets/Videos/Gallery_Image.mp4";
@@ -16,6 +15,10 @@ import information from "../assets/Videos/Information.mp4";
 import blog from "../assets/Videos/Micro Blogging WebApp.mp4";
 import mini from "../assets/Videos/miniProjects.mp4";
 import srcms from "../assets/Videos/SRCMS.mp4";
+
+import time_app from "../assets/Videos/world_time_app.mp4";
+import bike from "../assets/Videos/bike_appointment.mp4";
+
 
 
 const Projects = () => {
@@ -156,6 +159,26 @@ const Projects = () => {
   ]
 
 
+  const MoblieProjects = 
+    [
+      {
+        target: "time",
+        title: "World Time App",
+        desciption: "",
+        stacks: ['Flutter'],
+        video: time_app
+      },
+
+      {
+        target: "bike",
+        title: "Bike Appointment App",
+        desciption: "",
+        stacks: ['Java', "Firebase", "Figma"],
+        video: bike
+      },
+  ]
+
+
     return ( 
         <div className="projects">
               <div className="px-5 mx-5 py-5">
@@ -210,10 +233,34 @@ const Projects = () => {
                     
 
 
-                    <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-
-                    </div>
+            <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                  {MoblieProjects && MoblieProjects.map((project) => (
+                    <div className="col"  type="button" data-bs-toggle="modal" data-bs-target={`#${project.target}`}>
+                       <div className="card" id="project-card">
+                          <div className="col-md-3">
+                           <video src={project.video} className="object-fit-contain" id="mobile1" autoplay></video>
+                          </div>
+                         <div className="card-body">
+                           <h5 className="card-title">{project.title}</h5>
+                          <p className="card-text">{project.desciption}</p>
+                            <div className="row">
+                               <div className="col col-4 mt-3"><h5>Use Stack :</h5></div>
+                             {project.stacks.map((stack) => (
+                               <div className="col col-4"><div class="shadow p-3 text-center bg-body-tertiary rounded">{stack}</div></div>
+                             ))}
+                            </div>
+                         </div>
+                       </div>
+                     </div>
+                   
+                  ))} 
+               </div>
+            </div>
                     
+            
+
                     <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
                         <div className="container" >
                             
@@ -244,7 +291,8 @@ const Projects = () => {
                     
                </div>
                 
-            </div>
+        </div>
+        
 
 
             {/* <!-- Modal --> */}
@@ -301,7 +349,41 @@ const Projects = () => {
                     </div>
               </div>
                 )))}
-              {/* <!-- Modal --> */} 
+        {/* <!-- Modal --> */} 
+        
+
+        
+
+                {/* <!-- Modal 3 --> */}
+                {MoblieProjects && MoblieProjects.map((project => (
+                    <div className="modal fade" id={project.target} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-xl">
+                      <div className="modal-content text-white" id="modal-projects">
+                        <div className="modal-header">
+                                <h1 className="modal-title fs-5" id="exampleModalLabel">{project.title}</h1>
+                          <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                          <div className="modal-body text-center p-5">
+                              <video className="object-fit-contain"id="mobile" controls>
+                                <source src={project.video} type="video/mp4"/>
+                                </video>
+                              <p className="mt-2 lead p-2">
+                                  {project.desciption}
+                              </p>
+                              <div className="row">
+                                 <div className="col col-2 mt-3"><h5>Use Stack :</h5></div>
+                               {project.stacks.map((stack) => (
+                                 <div className="col col-2"><div class="shadow p-3 text-center bg-body-tertiary rounded">{stack}</div></div>
+                               ))}
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+                )))}
+        {/* <!-- Modal --> */} 
+
+        
 
         </div>
      );

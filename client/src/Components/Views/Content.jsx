@@ -5,10 +5,18 @@ import Introduction from "../Pages/Introduction";
 import Projects from "../Pages/Projects";
 import Services from "../Pages/Services";
 import Skill from "../Pages/Skill";
+import loading from "../Images/Loading.gif";
+import React from 'react';
 
 
 const Content = () => {
+
+
+
+
     return ( 
+
+        <React.Fragment>
         <div className="content">
             <div className="Introduction">
                <Introduction />
@@ -36,6 +44,8 @@ const Content = () => {
                 <Contacts />
             </div>
         </div>
+
+    </React.Fragment>    
      );
 }
  

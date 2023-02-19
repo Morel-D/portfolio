@@ -11,8 +11,7 @@ const Contacts = () => {
                         <h4> PHONE : <label className="lead mx-4">+237696676139</label></h4> 
                         <h4> EMAIL : <label className="lead mx-4">mtchaptche@gmail.com</label></h4> 
 
-                        <h4><label className="lead mt-5">My GitHub</label></h4> 
-                        <h4><label className="lead">Linkedin</label></h4> 
+                        {/* <h4>My GitHub : <label className="lead mt-5"> https://github.com/Morel-D</label></h4>  */}
                     </div>
                 </div>
             </div> 

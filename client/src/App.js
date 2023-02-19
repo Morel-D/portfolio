@@ -1,16 +1,17 @@
-import Content from "./Components/Views/Content";
-import Navigation from "./Components/Views/Navigation";
+import { Route, Routes, BrowserRouter, Navigate } from "react-router-dom";
+import MyApp from "./Components/Views/MyApp";
+
 
 function App() {
+
+
+
   return (
-    <div className="App">
-      <div className="header">
-         <Navigation />
-      </div>
-      <div className="content">
-        <Content />
-      </div>
-    </div>
+    <BrowserRouter>
+        <Routes>    
+            <Route path="/"  element={<MyApp />}/>
+        </Routes>
+    </BrowserRouter>
   );
 }
 

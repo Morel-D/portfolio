@@ -156,3 +156,15 @@ video {
   height: auto;
   width: 40%;
 }
+
+
+#loading 
+{
+  background-color: #000000;
+  height: 710px;
+}
+
+#logo {
+  width: 8%;
+  height: auto;
+}

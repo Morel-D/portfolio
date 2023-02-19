@@ -1,4 +1,6 @@
 import user from "../Images/Me.png"
+import resume from "../Images/resume.pdf"
+
 
 const Introduction = () => {
     return ( 
@@ -10,8 +12,9 @@ const Introduction = () => {
                         <h2 className="" id="intro">I'm TCHAPTCHE MOREL</h2>
                         <h2 className="" id="introText">Developer x Designer</h2>
                         <label className="lead mb-3" id="intro3">Welcome to my corner of the internet. i'm glad you're here</label> <br />
-                        <button className="btn btn-danger p-3" id="cv">Download my CV</button>
+                        <a href={resume} className="btn btn-danger p-3" id="cv" download>Download my CV</a>
                     </div>
+                    {/* D:\Projects\Project - z\Ongoing\Protfolio\client\src\Components\Images\resume.pdf */}
 
                     <div className="col col-xl-5  col-sm-0 text-white">
                         <div className="pattern my-5" id="partten">

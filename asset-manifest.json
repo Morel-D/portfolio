@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.82df0906.css",
+    "main.js": "/portfolio/static/js/main.71008c59.js",
+    "static/media/SRCMS.mp4": "/portfolio/static/media/SRCMS.36410886f607cfb8c973.mp4",
+    "static/media/E_Commerce.mp4": "/portfolio/static/media/E_Commerce.c7910013f15d67d7108c.mp4",
+    "static/media/bike_appointment.mp4": "/portfolio/static/media/bike_appointment.842ea832fa1726637728.mp4",
+    "static/media/miniProjects.mp4": "/portfolio/static/media/miniProjects.6c0ed7d8d515971c117d.mp4",
+    "static/media/ChatRoom System.mp4": "/portfolio/static/media/ChatRoom System.b3ee360ebb99ec48e2b9.mp4",
+    "static/media/Micro Blogging WebApp.mp4": "/portfolio/static/media/Micro Blogging WebApp.ba565e5f9527c28f996d.mp4",
+    "static/media/Gallery_Image.mp4": "/portfolio/static/media/Gallery_Image.c6c5cab84251602c309d.mp4",
+    "static/media/Information.mp4": "/portfolio/static/media/Information.e0be4f13b0b3a2e46ca2.mp4",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.9223f3c4b525db39105c.pdf",
+    "static/media/world_time_app.mp4": "/portfolio/static/media/world_time_app.47916cd439af6f3178da.mp4",
+    "static/media/Loading.gif": "/portfolio/static/media/Loading.fa697538b64da2378cbf.gif",
+    "static/media/Limited 1.png": "/portfolio/static/media/Limited 1.20436b67303e16f8a322.png",
+    "static/media/shoes.png": "/portfolio/static/media/shoes.2a97c688477f39629056.png",
+    "static/media/Hair-cut.png": "/portfolio/static/media/Hair-cut.a262221f399483d4f6bd.png",
+    "static/media/vision.png": "/portfolio/static/media/vision.a261f7af70286369a781.png",
+    "static/media/Gaming.png": "/portfolio/static/media/Gaming.6af3ccb8bd3d3d6467a3.png",
+    "static/media/Fitness.png": "/portfolio/static/media/Fitness.791d04dbe20422cbfb19.png",
+    "static/media/Fashion.png": "/portfolio/static/media/Fashion.ea759756979340b4bf2a.png",
+    "static/media/Ice.png": "/portfolio/static/media/Ice.3853d4c530a2ff355a53.png",
+    "static/media/Me.png": "/portfolio/static/media/Me.1c40918c229564f10488.png",
+    "static/media/skill_android.png": "/portfolio/static/media/skill_android.f111fc50f445fc2a0dfe.png",
+    "static/media/skill_graphics.png": "/portfolio/static/media/skill_graphics.1b04f3c7b413eee3f17b.png",
+    "static/media/skill_ui.png": "/portfolio/static/media/skill_ui.d862b28921cf35f6f74a.png",
+    "static/media/skill_database.png": "/portfolio/static/media/skill_database.f70210860b8356b95bd4.png",
+    "static/media/skill_backend.png": "/portfolio/static/media/skill_backend.61137452538bc227abbb.png",
+    "static/media/skill_Front_end.png": "/portfolio/static/media/skill_Front_end.06f5b92b8e4fc819d413.png",
+    "static/media/Web.png": "/portfolio/static/media/Web.a52eb8e232fdedb766d8.png",
+    "static/media/graphic.png": "/portfolio/static/media/graphic.ab18debad4e36af0021a.png",
+    "static/media/Partten.png": "/portfolio/static/media/Partten.04fa747c8d91246f8f57.png",
+    "static/media/Android.png": "/portfolio/static/media/Android.ca25d84256a9e1023cf8.png",
+    "index.html": "/portfolio/index.html",
+    "main.82df0906.css.map": "/portfolio/static/css/main.82df0906.css.map",
+    "main.71008c59.js.map": "/portfolio/static/js/main.71008c59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82df0906.css",
+    "static/js/main.71008c59.js"
+  ]
+}

@@ -48,6 +48,20 @@ const Expererience = () => {
                                June 2021 - September 2021
                             </p>
                           </li>
+                          <li className="timeline-item mb-5">
+                            <h5 className="fw-bold">Web development - Graphic designer</h5>
+                            <p className="text-muted mb-2 fw-bold">Freelancing</p>
+                              <p className="text-muted">
+                               July 2023 - Now
+                            </p>
+                          </li>
+                          <li className="timeline-item mb-5">
+                            <h5 className="fw-bold">Web & Moblie development internship</h5>
+                            <p className="text-muted mb-2 fw-bold">Openxtech</p>
+                              <p className="text-muted">
+                               April 2023 - Now
+                            </p>
+                          </li>
                         </ul>
                       </div>
                     </div>

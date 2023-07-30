@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Contacts = () => {
     return ( 
         <div className="bg-dark">
@@ -11,7 +13,10 @@ const Contacts = () => {
                         <h4> PHONE : <label className="lead mx-4">+237696676139</label></h4> 
                         <h4> EMAIL : <label className="lead mx-4">mtchaptche@gmail.com</label></h4> 
 
-                        {/* <h4>My GitHub : <label className="lead mt-5"> https://github.com/Morel-D</label></h4>  */}
+                        <hr />
+
+                        <h4><Link to="https://github.com/Morel-D?tab=repositories" className="text-danger">My GitHub</Link></h4> 
+                        <h4><Link to="https://www.linkedin.com/in/morel-tchaptche/" className="text-danger">My LinkedIn</Link></h4>
                     </div>
                 </div>
             </div> 

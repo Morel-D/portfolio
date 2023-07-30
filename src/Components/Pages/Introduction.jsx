@@ -1,5 +1,5 @@
 import user from "../Images/Me.png"
-import resume from "../Images/resume.pdf"
+import resume from "../Images/Morel Denzel.pdf"
 
 
 const Introduction = () => {
